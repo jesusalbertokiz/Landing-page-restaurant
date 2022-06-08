@@ -59,3 +59,51 @@ nav a{
     position: relative;
     left: 9px;
 }
+
+/* Home */
+
+.home{
+    background-image: url("../image/Backgroud\ Image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.home-content-vertical{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.home-content-horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content-vertical > h1{
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.home-content-vertical figure{
+    color: #ffffff;
+    font-family: 'Playfair Display', sans-serif;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-recipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 38px;
+    color: #ffffff;
+    background-color: #FE4A51;
+    border: 0;
+}

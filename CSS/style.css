@@ -6,7 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    background: #b1a3a3;
+    background: #ffffff;
 }
 header{
     background-color: #ffffff;
@@ -94,8 +94,9 @@ nav a{
     align-items: center;
 }
 .home-content-vertical{
+    padding-top: 5%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     height: 100vh;
@@ -103,7 +104,7 @@ nav a{
 .home-content-vertical > h1{
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 70px;
+    font-size: 72px;
     font-weight: 800;
     color: rgb(255, 255, 255);
 }
@@ -124,4 +125,17 @@ nav a{
     color: #ffffff;
     background-color: #FE4A51;
     border: 0;
+}
+
+.main-reel{
+    margin-top: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.main-reel img{
+    height: 230px;
 }

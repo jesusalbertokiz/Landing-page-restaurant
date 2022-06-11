@@ -18,9 +18,7 @@ header{
 }
 nav{
     background-color: #ffffff;
-    padding: 0 20px;
-    padding-left: 5rem;
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -31,7 +29,7 @@ nav a{
     justify-content: space-evenly;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    font-weight: 545;
+    font-weight: 549;
     color: #000;
 }
 .logo{
@@ -49,7 +47,7 @@ nav a{
    }
    
    .input {
-    width: 100%;
+    width: 135px;
     height: 40px;
     padding: 0 1rem;
     padding-left: 2.5rem;
@@ -89,6 +87,12 @@ nav a{
     height: 100vh;
 }
 
+
+.home-content-horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .home-content-vertical{
     display: flex;
     justify-content: center;
@@ -96,15 +100,10 @@ nav a{
     flex-direction: column;
     height: 100vh;
 }
-.home-content-horizontal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .home-content-vertical > h1{
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 800;
     color: rgb(255, 255, 255);
 }
